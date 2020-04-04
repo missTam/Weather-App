@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+
+    <!--Import custom.css-->
+    <link type="text/css" rel="stylesheet" href="css/app.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="custom-background">
+                    <div class="card transparent z-depth-5" id="cardTop">
+                        <div class="card-content" id="imgCardContent">
+                            <div class="row">
+                                <div class="col s12 centerRef">
+                                    <h4 id="city" class="infoP"></h4>
+                                </div>
+                                <div class="col s12 centerRef">
+                                    <h5 id="weather" class="infoP">Curious about today's weather?</h5>
+                                    <img id="wicon" src="">
+                                    <h4 id="temperature" class="infoP"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card z-depth-5" id="cardBottom">
+                    <div class="card-content">
+                        <p>Want to know what's the weather like somewhere today? Just type in the city!</p>
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field">
+                                    <input placeholder="City" id="search_city" type="text" class="validate">
+                                </div>
+                                <input type="submit" value="Check weather" class="btn light-blue darken-2" id="addBtn">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-tabs">
+                        <ul class="tabs tabs-fixed-width">
+                            <li class="tab"><a class="active grey-text text-darken-2" href="#temp">Temp</a></li>
+                            <li class="tab"><a href="#sun" class="grey-text text-darken-2">Sun</a></li>
+                            <li class="tab"><a href="#other" class="grey-text text-darken-2">Other</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-content grey lighten-4">
+                        <div id="temp"></div>
+                        <div id="sun"></div>
+                        <div id="other"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.js"></script>
+
+    <!--Initialize tabs-->
+    <script>
+        var elem = document.querySelector('.tabs');
+        var instance = M.Tabs.init(elem, {});
+    </script>
+
+    <!--Own js scripts-->
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

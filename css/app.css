@@ -1,0 +1,76 @@
+.custom-background {
+    background-image: url("/img/clear.jpg");
+    background-repeat: no-repeat;
+    height: 55vh;
+    background-size: cover;
+}
+
+#cardTop {
+    height: 55vh;
+}
+
+.centerRef {
+    text-align: center;
+}
+
+#city {
+    margin-top: 150px;
+    font-weight: bold;
+    color: #0288d1;
+}
+
+#weather {
+    color: #00796b;
+}
+
+#temperature {
+    color: #0288d1;
+    margin-bottom: 100px;
+}
+
+/*Text color on hover*/
+.tabs .tab a:hover {
+    background-color: #e1f5fe;
+}
+
+/*Background and text color when a tab is active*/
+.tabs .tab a:focus.active {
+    background-color: #e1f5fe;
+}
+
+/*Color of underline*/
+.tabs .indicator {
+    background-color: #81d4fa;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #81d4fa !important;
+    box-shadow: 0 1px 0 0 #81d4fa !important;
+}
+
+#error-msg {
+    color: #d32f2f;
+    font-size: 13px;
+}
+
+/* For height 750px or less, reduce font to make app more responsive*/
+@media (max-height: 750px) {
+
+    .custom-background,
+    #cardTop {
+        overflow: hidden;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    #city {
+        margin-top: 20px;
+    }
+}
