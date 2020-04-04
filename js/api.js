@@ -18,9 +18,4 @@ class Weather {
         }
         throw new Error(`${response.status} ${response.statusText}`);
     }
-
-    // change city
-    changeCity(city) {
-        this.city = city;
-    }
 }
