@@ -4,6 +4,9 @@ A web app that fetches today's weather information for a given city
 # Tools & Technologies
 VanillaJS; ES6 classes; async/ await with fetch API
 
+# Code Architecture
+MVC (Model View Controller); Module Pattern
+
 # Design
 Materialize framework v1.0.0
 
