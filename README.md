@@ -16,9 +16,8 @@ Materialize framework v1.0.0
 
 # Screenshots
 
-<img src="img/athens.PNG" width="400">
-<img src="img/accra.PNG" width="400">
-<img src="img/la.PNG" width="400">
+<img src="img/accra.PNG" width="500">
+<img src="img/la.PNG" width="500">
 
 # Credits
 
