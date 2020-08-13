@@ -19,7 +19,7 @@ Materialize framework v1.0.0
 <img src="img/accra.PNG" width="500">
 <img src="img/la.PNG" width="500">
 
-# Credits
+# Links & Credits
 
 [Materialize](https://materializecss.com/)
 
