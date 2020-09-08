@@ -1,25 +1,25 @@
-# Weather App
+## Weather App
 
 A web app that fetches today's weather information for a given city
 
-# Tools & Technologies
+## Tools & Technologies
 
 VanillaJS
 
-# Code Architecture
+## Code Architecture
 
 MVC (Model View Controller); Module Pattern
 
-# Design
+## Design
 
 Materialize framework v1.0.0
 
-# Screenshots
+## Screenshots
 
 <img src="img/accra.PNG" width="500">
 <img src="img/la.PNG" width="500">
 
-# Links & Credits
+## Links & Credits
 
 [Materialize](https://materializecss.com/)
 
